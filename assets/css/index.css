@@ -6,7 +6,7 @@
 
 header {
   color: black;
-  background-color: rgb(169, 212, 252);
+  background-color: rgb(38, 121, 199);
   align-items: center;
   padding: 20px;
   display: flex;
@@ -28,14 +28,12 @@ header img {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1; 
-    width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
 }
-
-
 
 button {
   background-color: rgb(245, 245, 245);
@@ -52,14 +50,105 @@ button:hover {
   background-color: rgb(184, 199, 201);
 }
 
-body.claro {
-  background-color: #f2f2f2;
-  color: black;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  transition: background-color 0.5s, color 0.5;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
 }
 
 body.escuro {
-  background-color: black;
+  background-color: #1d1d1d;
   color: #f2f2f2;
 }
 
+#sobre {
+  margin-top: 30px;
+}
 
+#sobre h3 {
+  margin: 8px;
+}
+
+#sobre h4 {
+  margin: 12px;
+}
+
+#habilidades {
+  background-color: rgb(38, 121, 199);
+  margin-top: 60px;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  border-radius: 45px;
+}
+
+#habilidades p {
+  margin-top: 22px;
+}
+
+#n-profissa h2 {
+  margin-top: 40px;
+}
+
+#hobbies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+#hobbies ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 70px;
+}
+
+#hobbies li{
+  color: black;
+  background-color: white;
+  transition: all 0.6s ease;
+  border-radius: 30px;
+  width: 240px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hobbies li:hover{
+  transition: all 0.8s ease;
+  transform: scale(1.05);
+  box-shadow: 10px 10px 5px black
+}
+
+#contato {
+  margin-top: 55px;
+}
+#contato hr {
+  width: 35%;
+  margin: 20px auto 0;
+  display: block;
+}
+#contato p {
+  margin-top: 12px;
+}
+
+#plataformas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#plataformas img {
+  height: 80px;
+}
+
+footer{
+  padding: 20px;
+  background-color:rgb(38, 121, 199);
+  margin-top: 40px;
+}
